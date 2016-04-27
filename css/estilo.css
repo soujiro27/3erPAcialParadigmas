@@ -1,0 +1,24 @@
+header {
+  background: #2e4154;
+  display: flex;
+}
+header div.logo {
+  background: #ecf0f1;
+  width: 10%;
+}
+header div.logo img {
+  width: 90%;
+  display: block;
+  margin: 2% auto;
+}
+header h1 {
+  width: 85%;
+  text-align: center;
+  color: #ecf0f1;
+}
+section.habitaciones article {
+  display: inline-block;
+  width: 17%;
+  background: #27ae60;
+  margin: 2% 1%;
+}
