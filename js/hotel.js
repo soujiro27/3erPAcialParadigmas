@@ -44,8 +44,9 @@ function oculta()
 		{
 			
 			var y=(cuarto[x].numero)-1;
-			var room=$('section.habitaciones article')[y];
-			console.log(room);
+			console.log($('section.habitaciones article')[y].style.display="none");
+			//var room=$('section.habitaciones article')[y];
+			//console.log(room);
 		}
 		//console.log($('section.habitaciones article'));
 	}
